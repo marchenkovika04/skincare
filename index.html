@@ -120,7 +120,15 @@
                      <figure><img src="images/pic11.webp" alt="#"/></figure>
                      <h3>600грн</h3>
                      <span> Гель для вмивання  </span>
-                     <a class="read_more mar_top" href="Javascript:void(0)"> Придбати</a>
+                     <a class="read_more mar_top" 
+   href="Javascript:void(0)" 
+   onclick="gtag('event', 'purchase_click', {
+     event_category: 'button',
+     event_label: 'Гель для вмивання',
+     value: 600
+   });">
+   Придбати
+</a>
                   </div>
                </div>
                <div class="col-md-3 col-sm-6">
